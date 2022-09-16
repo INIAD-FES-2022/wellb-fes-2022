@@ -1,0 +1,29 @@
+body {
+    font-family:"Yu Gothic", "ŸàƒSƒVƒbƒN", YuGothic, "ŸàƒSƒVƒbƒN‘Ì", "ƒqƒ‰ƒMƒmŠpƒS Pro W3", "ƒƒCƒŠƒI", sans-serif;
+}
+
+.container {
+    display: flex;
+}
+header {
+    height: 50px;
+    color: #fff;
+    background-color: #222;
+
+}
+
+#sidebar {
+    flex: 0 1 auto;
+    width: 300px;
+    height: 1024px;
+    color: #fff;
+    background-color: #222;
+    border-right: 4px solid #444;
+}
+
+#contents {
+    flex: 1 1 auto;
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+}
