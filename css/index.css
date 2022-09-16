@@ -1,5 +1,6 @@
 body {
     font-family:"Yu Gothic", "ŸàƒSƒVƒbƒN", YuGothic, "ŸàƒSƒVƒbƒN‘Ì", "ƒqƒ‰ƒMƒmŠpƒS Pro W3", "ƒƒCƒŠƒI", sans-serif;
+    margin: 0;
 }
 
 .container {
@@ -25,15 +26,14 @@ header {
     font-size: 24px;
     padding-top: 6px;
     height: 44px;
-    color: #222;
-    background-color: #ddd;
+    color: #ddd;
     margin-right: 10px;
     
     width: 80px;
 
 }
 #pages a :hover {
-    background-color: #aaa;
+    background-color: #555;
 }
 
 
@@ -45,7 +45,6 @@ header {
     justify-content: center;
     align-items: center;
     z-index: 90;
-    background-color: #ddd;
     display: none;
 }
 .menu-btn span,
@@ -56,7 +55,7 @@ header {
     height: 3px;
     width: 25px;
     border-radius: 3px;
-    background-color: #222;
+    background-color: #ddd;
     position: absolute;
 }
 .menu-btn span:before {
