@@ -1,5 +1,5 @@
 body {
-    font-family:"Yu Gothic", "ŸàƒSƒVƒbƒN", YuGothic, "ŸàƒSƒVƒbƒN‘Ì", "ƒqƒ‰ƒMƒmŠpƒS Pro W3", "ƒƒCƒŠƒI", sans-serif;
+    font-family:"Yu Gothic", "ï¿½ï¿½ï¿½Sï¿½Vï¿½bï¿½N", YuGothic, "ï¿½ï¿½ï¿½Sï¿½Vï¿½bï¿½Nï¿½ï¿½", "ï¿½qï¿½ï¿½ï¿½Mï¿½mï¿½pï¿½S Pro W3", "ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½I", sans-serif;
     margin: 0;
     background: linear-gradient(to bottom, #73C3B5 0%, #73C3B5 25%, #FFE7B7 25%, #FFE7B7 50%, #DA719B 50%, #DA719B 75%, #6575A5 75%, #6575A5 100%);
     display: block;
@@ -36,7 +36,7 @@ header {
     height: 44px;
     color: #ddd;
     margin-right: 10px;
-    
+
     width: 80px;
 
 }
@@ -74,7 +74,7 @@ header {
     top: 8px;
 }
 #menu-btn-check:checked ~ .menu-btn span {
-    background-color: rgba(255, 255, 255, 0);/*ƒƒjƒ…[ƒI[ƒvƒ“‚Í^‚ñ’†‚Ìü‚ğ“§–¾‚É‚·‚é*/
+    background-color: rgba(255, 255, 255, 0);/*ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½Iï¿½[ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½Í^ï¿½ñ’†‚Ìï¿½ï¿½ğ“§–ï¿½ï¿½É‚ï¿½ï¿½ï¿½*/
 }
 #menu-btn-check:checked ~ .menu-btn span::before {
     bottom: 0;
@@ -140,4 +140,56 @@ aside {
     .menu-btn {
         display: flex;
     }
+}
+
+
+/* ç°¡æ˜“ãƒªã‚»ãƒƒãƒˆCSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* èƒŒæ™¯ */
+.bg {
+  background-image: url("bg.jpg"); /* ç”»åƒã®ãƒ‘ã‚¹ã‚’æŒ‡å®š */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 60px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ã‚¬ãƒ©ã‚¹æœ¬ä½“ */
+.glass {
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.1); /* èƒŒæ™¯è‰² */
+  border: 1px solid rgba(255, 255, 255, 0.4); /* ãƒœãƒ¼ãƒ€ãƒ¼ */
+  border-right-color: rgba(255, 255, 255, 0.2);
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  -webkit-backdrop-filter: blur(20px); /* ã¼ã‹ã—ã‚¨ãƒ•ã‚§ã‚¯ãƒˆ */
+  backdrop-filter: blur(20px);
+  box-shadow: 0 5px 20px rgba(208, 201, 195, 0); /* è–„ã„å½± */
+}
+
+/* ã‚¬ãƒ©ã‚¹å†…ã®è¦ç´  */
+.glass h1 {
+  text-align: center;
+  color: #fff;
+  font-family: "Heebo", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+}
+
+.glass p {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 16px;
 }
