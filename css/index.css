@@ -1,9 +1,9 @@
-/* ç°¡æ˜“ãƒªã‚»ãƒ?ãƒ?CSS */
+/* ç°¡æ˜“ãƒªã‚»ï¿½ï¿½?ï¿½ï¿½?CSS */
 * {
     box-sizing: border-box;
 }
 body {
-    font-family:"Yu Gothic", "?¿½?¿½?¿½S?¿½V?¿½b?¿½N", YuGothic, "?¿½?¿½?¿½S?¿½V?¿½b?¿½N?¿½?¿½", "?¿½q?¿½?¿½?¿½M?¿½m?¿½p?¿½S Pro W3", "?¿½?¿½?¿½C?¿½?¿½?¿½I", sans-serif;
+    font-family:"Yu Gothic", "?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½S?ï¿½ï¿½V?ï¿½ï¿½b?ï¿½ï¿½N", YuGothic, "?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½S?ï¿½ï¿½V?ï¿½ï¿½b?ï¿½ï¿½N?ï¿½ï¿½?ï¿½ï¿½", "?ï¿½ï¿½q?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½M?ï¿½ï¿½m?ï¿½ï¿½p?ï¿½ï¿½S Pro W3", "?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½C?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½I", sans-serif;
     margin: 0;
     background: linear-gradient(to bottom, #73C3B5 0%, #73C3B5 25%, #FFE7B7 25%, #FFE7B7 50%, #DA719B 50%, #DA719B 75%, #6575A5 75%, #6575A5 100%);
     display: block;
@@ -91,7 +91,7 @@ main {
     top: 8px;
 }
 #menu-btn-check:checked ~ .menu-btn span {
-    background-color: #00000000;/*?¿½?¿½?¿½j?¿½?¿½?¿½[?¿½I?¿½[?¿½v?¿½?¿½?¿½?¿½?¿½Í^?¿½??‚Ìï¿½?¿½?§–ï¿½?¿½É‚ï¿½?¿½?¿½*/
+    background-color: #00000000;/*?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½j?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½[?ï¿½ï¿½I?ï¿½ï¿½[?ï¿½ï¿½v?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½Í^?ï¿½ï¿½??ï¿½Ìï¿½?ï¿½ï¿½?ï¿½ï¿½ï¿½?ï¿½ï¿½É‚ï¿½?ï¿½ï¿½?ï¿½ï¿½*/
 }
 #menu-btn-check:checked ~ .menu-btn span::before {
     bottom: 0;
@@ -150,7 +150,7 @@ aside {
 }
 /* èƒŒæ™¯ */
 .bg {
-    background-image: url("bg.jpg"); /* ç”»åƒã?®ãƒ‘ã‚¹ã‚’æŒ‡å®? */
+    background-image: url("bg.jpg"); /* ç”»åƒï¿½?ï¿½ãƒ‘ã‚¹ã‚’æŒ‡ï¿½ï¿½? */
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -162,23 +162,23 @@ aside {
     z-index: 7;
 }
 
-/* ã‚¬ãƒ©ã‚¹æœ¬ä½? */
+/* ã‚¬ãƒ©ã‚¹æœ¬ï¿½ï¿½? */
 .glass {
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
     padding: 30px;
     background-color: #ffffff1c; /* èƒŒæ™¯è‰² */
-    border: 1px solid #ffffff66; /* ãƒœã?¼ãƒ€ãƒ¼ */
+    border: 1px solid #ffffff66; /* ãƒœï¿½?ï¿½ãƒ€ãƒ¼ */
     border-right-color: #ffffff33;
     border-bottom-color: #ffffff33;
     border-radius: 15px;
-    -webkit-backdrop-filter: blur(20px); /* ã¼ã‹ã—ã‚¨ãƒ•ã‚§ã‚¯ãƒ? */
+    -webkit-backdrop-filter: blur(20px); /* ã¼ã‹ã—ã‚¨ãƒ•ã‚§ã‚¯ï¿½ï¿½? */
     backdrop-filter: blur(20px);
-    box-shadow: 0 5px 20px #40404033; /* è–?ã?å½± */
+    box-shadow: 0 5px 20px #40404033; /* ï¿½ï¿½?ï¿½ï¿½?å½± */
     z-index: 8;
 }
 
-/* ã‚¬ãƒ©ã‚¹å†?ã®è¦ç´? */
+/* ã‚¬ãƒ©ã‚¹ï¿½ï¿½?ã®è¦ï¿½ï¿½? */
 .glass h1 {
     text-align: center;
     color: #fff;
@@ -197,5 +197,3 @@ aside {
         display: flex;
     }
 }
-
-
