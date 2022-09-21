@@ -162,6 +162,64 @@ aside {
     object-fit: cover;
 }
 
+.contents-txt {
+
+}
+.contents-img-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.timetable-img-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+
+.mascot-wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#mascot-img {
+    margin: 0 2.5rem 0 2.5rem;
+}
+#mascot-txt {
+    margin: 0 2.5rem 0 2.5rem;
+}
+
+.access-wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#access-img {
+    margin: 0 2.5rem 0 2.5rem;
+}
+#access-txt1 {
+    margin: 0 2.5rem 0 2.5rem;
+}
+
+.sns-img-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mailaddress-img-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+#mailaddress-img {
+    height: 5rem;
+    width: 85%;
+}
+
+
 /* 背景 */
 .bg {
     background-image: url("bg.jpg"); /* 画像�??��パスを指?��?��? */
