@@ -61,7 +61,7 @@
 
                 <div class="bg">
                     <div class="glass">
-                        <h3>赤羽台祭WELLB-FES2022まであと</h3>
+                        <h3 id="countdownText">赤羽台祭WELLB-FES2022まであと</h3>
                         <div id="countdownArea" class="countdown">
                             <span id="countdown-day"></span>:
                             <span id="countdown-hour"></span>:
@@ -93,9 +93,10 @@
                             各展示 .classroom-exhibition
                             各展示のh4タグ(場所、名前) .classroom-name
                             各展示の画像 .classroom-img
+                            企画名のh2タグ .plan-name
                         -->
                         <div class="classroom-exhibitions">
-                            <h2>教室展示</h2>
+                            <h2 class="plan-name">教室企画</h2>
                             <!--
                                 展示テンプレート
                                 <div class="classroom-exhibition" >
@@ -108,107 +109,145 @@
                                 <h3 class="floor-num-ex">１階</h3>
                                 <div class="classroom-exhibition" >
                                     <img src="img/classroom/" alt="img" class="classroom-img">
-                                    <h4 class="classroom-name">赤羽消防署</h4>
-                                    <p>赤羽消防署からのお知らせやグッズを配布します！また、AEDや消火器の体験も出来ますので是非お立ち寄りください。</p>
+                                    <div class="exhibition_txt">
+                                        <h4 class="classroom-name">赤羽消防署</h4>
+                                        <p>赤羽消防署からのお知らせやグッズを配布します！また、AEDや消火器の体験も出来ますので是非お立ち寄りください。</p>
+                                    </div>
                                 </div>
                                 <div class="classroom-exhibition" >
                                     <img src="img/classroom/fund-raising.jpg" alt="img" class="classroom-img">
-                                    <h4 class="classroom-name">1(入場口受付):募金活動</h4>
+                                    <div class="exhibition_txt">
+                                        <h4 class="classroom-name">1(入場口受付):募金活動</h4>
                                     <p>ドナルド・マクドナルド・ハウスは、家から遠く離れた病院での治療が必要なお子さんとご家族のための滞在施設です。募金いただいたお金は、運営主体のドナルド・マクドナルド・ハウス財団への寄付金としてお送りします。</p>
+                                    </div>
                                 </div>
                                 <div class="classroom-exhibition" >
                                     <img src="img/classroom/HandArt.jpg" alt="img" class="classroom-img">
-                                    <h4 class="classroom-name">2(屋外階段下):手形アート</h4>
-                                    <p>来場者みんなで作り上げる手形アート！素敵な思い出になるはずです！さぁ、あなたもその一人です！参加お待ちしております！</p>
+                                    <div class="exhibition_txt">
+                                        <h4 class="classroom-name">2(屋外階段下):手形アート</h4>
+                                        <p>来場者みんなで作り上げる手形アート！素敵な思い出になるはずです！さぁ、あなたもその一人です！参加お待ちしております！</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="2f-exhibitions">
                                 <h3 class="floor-num-ex">２階</h3>
                                 <div class="classroom-exhibition" >
                                     <img src="img/classroom/society association.jpg" alt="img" class="classroom-img">
-                                    <h4 class="classroom-name">20201教室:北区社会福祉協議会</h4>
-                                    <p>出張！「朝活　かよう市」「桐ヶ丘中央商店街」にて、”地域交流の場”として、毎週火曜朝9時～体操＆ミニバザー「かよう市」を行っています！</p>
+                                    <div class="exhibition_txt">
+                                        <h4 class="classroom-name">20201教室:北区社会福祉協議会</h4>
+                                        <p>出張！「朝活　かよう市」「桐ヶ丘中央商店街」にて、”地域交流の場”として、毎週火曜朝9時～体操＆ミニバザー「かよう市」を行っています！</p>
+                                    </div>
                                 </div>
                                 <div class="classroom-exhibition" >
                                     <img src="img/classroom/mascot.jpg" alt="img" class="classroom-img">
-                                    <h4 class="classroom-name">20203教室:マスコットキャラ</h4>
-                                    <p>あなたのデザインがWELLB-FESのマスコットキャラクターになるかも！？見事デザイン案が採用された方には後日景品プレゼント！</p>
+                                    <div class="exhibition_txt">
+                                        <h4 class="classroom-name">20203教室:マスコットキャラ</h4>
+                                        <p>あなたのデザインがWELLB-FESのマスコットキャラクターになるかも！？見事デザイン案が採用された方には後日景品プレゼント！</p>
+                                    </div>
                                 </div>
                                 <div class="classroom-exhibition" >
                                     <img src="img/classroom/Photospot.jpg" alt="img" class="classroom-img">
-                                    <h4 class="classroom-name">20203教室:smaile photo</h4>
-                                    <p>キャンパス内で撮った写真をSNSに投稿して、抽選に参加しよう!!!!当選したら景品GET!!!!</p>
+                                    <div class="exhibition_txt">
+                                        <h4 class="classroom-name">20203教室:smaile photo</h4>
+                                        <p>キャンパス内で撮った写真をSNSに投稿して、抽選に参加しよう!!!!当選したら景品GET!!!!</p>
+                                    </div>
                                 </div>
                                 <div class="classroom-exhibition" >
                                     <img src="img/classroom/Re_market.jpg" alt="img" class="classroom-img">
-                                    <h4 class="classroom-name">20204教室:Re:market</h4>
-                                    <p>Re:marketは学生から集めたものをお手軽価格で購入できるフリーマーケットです！受験生はここで購入したものをお守り代わりにも！ぜひお立ち寄りください！</p>
+                                    <div class="exhibition_txt">
+                                        <h4 class="classroom-name">20204教室:Re:market</h4>
+                                        <p>Re:marketは学生から集めたものをお手軽価格で購入できるフリーマーケットです！受験生はここで購入したものをお守り代わりにも！ぜひお立ち寄りください！</p>
+                                    </div>
                                 </div>
                                 <div class="classroom-exhibition" >
-                                    <img src="img/classroom/AllDayLive.jpg" alt="img" class="classroom-img">
-                                    <h4 class="classroom-name">20207教室:ほーろっく☆よーがっく</h4>
-                                    <p>3年ぶりの対面開催！色んな曲で一緒に盛り上がりましょう！お待ちしてます！</p>
+                                    <img src="img/classroom/AllDayLive.jpg" alt="img" class="classroom-img" id="horok">
+                                    <div class="exhibition_txt">
+                                        <h4 class="classroom-name">20207教室:ほーろっく☆よーがっく</h4>
+                                        <p>3年ぶりの対面開催！色んな曲で一緒に盛り上がりましょう！お待ちしてます！</p>
+                                    </div>
                                 </div>
                                 <div class="classroom-exhibition" >
                                     <img src="img/classroom/Watanabe.jpg" alt="img" class="classroom-img">
-                                    <h4 class="classroom-name">20208教室:渡辺ゼミ</h4>
-                                    <p>渡辺道代ゼミではバザーをしています。普段ゼミではフィールドワークを行って実際に体験して福祉について勉強しています。気になることがあってもなくても是非気軽にお越しください。</p>
+                                    <div class="exhibition_txt">
+                                        <h4 class="classroom-name">20208教室:渡辺ゼミ</h4>
+                                        <p>渡辺道代ゼミではバザーをしています。普段ゼミではフィールドワークを行って実際に体験して福祉について勉強しています。気になることがあってもなくても是非気軽にお越しください。</p>
+                                    </div>
                                 </div>
                                 <div class="classroom-exhibition" >
                                     <img src="img/classroom/OrientalCondudtor.jpg" alt="img" class="classroom-img">
-                                    <h4 class="classroom-name">20208教室:オリター</h4>
-                                    <p>オリターは一年生のサポート団体です。具体的には一年生歓迎会や資格・履修相談等をしています。一年生が大学に溶け込めるように、これからも企画を考え、実施していきます！</p>
+                                    <div class="exhibition_txt">
+                                        <h4 class="classroom-name">20208教室:オリター</h4>
+                                        <p>オリターは一年生のサポート団体です。具体的には一年生歓迎会や資格・履修相談等をしています。一年生が大学に溶け込めるように、これからも企画を考え、実施していきます！</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="3f-exhibitions">
                                 <h3 class="floor-num-ex">３階</h3>
                                 <div class="classroom-exhibition" >
                                     <img src="img/classroom/Onuma.jpg" alt="img" class="classroom-img">
-                                    <h4 class="classroom-name">20301教室:大沼ゼミ</h4>
-                                    <p>大沼ゼミナールではグループワークで日経MU新聞を用い、様々な分野の「未来予測」をしてきました。この「未来予測」をもとに各メンバーが個人ワークに取り組んでいます。ぜひ見に来てください！</p>
+                                    <div class="exhibition_txt">
+                                        <h4 class="classroom-name">20301教室:大沼ゼミ</h4>
+                                        <p>大沼ゼミナールではグループワークで日経MU新聞を用い、様々な分野の「未来予測」をしてきました。この「未来予測」をもとに各メンバーが個人ワークに取り組んでいます。ぜひ見に来てください！</p>
+                                    </div>
                                 </div>
                                 <div class="classroom-exhibition" >
                                     <img src="img/classroom/Ikeda.jpg" alt="img" class="classroom-img">
-                                    <h4 class="classroom-name">20302教室:池田ゼミ</h4>
-                                    <p>池田ゼミではユニバーサルデザインを軸にしたインテリアトイ、知育玩具を制作し展示、体験を行っております。小さなお子様も遊べるので気軽に足をお運びください。ゼミ一同お待ちしております。</p>
+                                    <div class="exhibition_txt">
+                                        <h4 class="classroom-name">20302教室:池田ゼミ</h4>
+                                        <p>池田ゼミではユニバーサルデザインを軸にしたインテリアトイ、知育玩具を制作し展示、体験を行っております。小さなお子様も遊べるので気軽に足をお運びください。ゼミ一同お待ちしております。</p>
+                                    </div>
                                 </div>
                                 <div class="classroom-exhibition" >
                                     <img src="img/classroom/tomboys_classroom.jpg" alt="img" class="classroom-img">
-                                    <h4 class="classroom-name">20304教室:Tomboys☆</h4>
-                                    <p>チェキ撮影会を行ってます！お待ちしております！ステージ企画も是非ご覧ください！<br>※実施は10/30のみとなります</p>
+                                    <div class="exhibition_txt">
+                                        <h4 class="classroom-name">20304教室:Tomboys☆</h4>
+                                        <p>チェキ撮影会を行ってます！お待ちしております！ステージ企画も是非ご覧ください！<br>※実施は10/30のみとなります</p>    
+                                    </div>
                                 </div>
                                 <div class="classroom-exhibition" >
                                     <img src="img/classroom/RoomSports.jpg" alt="img" class="classroom-img">
-                                    <h4 class="classroom-name">20305教室:室内スポーツ大会</h4>
-                                    <p>室内スポーツでは全員が楽しめるような工夫が沢山！気軽に楽しめること間違いなし！迷ったときはここに来て！お待ちしてます！</p>
+                                    <div class="exhibition_txt">
+                                        <h4 class="classroom-name">20305教室:室内スポーツ大会</h4>
+                                        <p>室内スポーツでは全員が楽しめるような工夫が沢山！気軽に楽しめること間違いなし！迷ったときはここに来て！お待ちしてます！</p>    
+                                    </div>
                                 </div>
                                 <div class="classroom-exhibition" >
                                     <img src="img/classroom/Sakurai.jpg" alt="img" class="classroom-img">
-                                    <h4 class="classroom-name">20310,20311教室:桜井ゼミ</h4>
-                                    <p>310<br>アドルフ・ロースに関する研究<br>展示物:模型、映像、VR<br>311<br>設計演習課題<br>展示物:模型、プレゼンボード</p>
+                                    <div class="exhibition_txt">
+                                        <h4 class="classroom-name">20310,20311教室:桜井ゼミ</h4>
+                                        <p><b>310</b>: アドルフ・ロースに関する研究<br><b>展示物</b>: 模型、映像、VR<br><b>311</b>: 設計演習課題<br><b>展示物</b>: 模型、プレゼンボード</p>    
+                                    </div>
                                 </div>
                                 <div class="classroom-exhibition" >
                                     <img src="img/classroom/EnglishComuunityZone.jpg" alt="img" class="classroom-img">
-                                    <h4 class="classroom-name">ECZ教室:English Community Zone</h4>
-                                    <p>みなさん、謎解きはすきですか？ECZは、留学生と一緒にinternationalな謎解きゲームを開催します！留学生と関わってみたい！異文化に興味がある！という方必見です<br>Let's have fun!!</p>
+                                    <div class="exhibition_txt">
+                                        <h4 class="classroom-name">ECZ教室:English Community Zone</h4>
+                                        <p>みなさん、謎解きはすきですか？ECZは、留学生と一緒にinternationalな謎解きゲームを開催します！留学生と関わってみたい！異文化に興味がある！という方必見です<br>Let's have fun!!</p>    
+                                    </div>
                                 </div>
                                 <div class="classroom-exhibition" >
                                     <img src="img/classroom/Unmei.jpg" alt="img" class="classroom-img">
-                                    <h4 class="classroom-name">学生ホール:運命の人探し</h4>
-                                    <p>配られるカードを手がかりに同じ数字の人を探すというシンプルな企画です。多くの人の参加が必要です！ぜひ友達と一緒に参加してみてください☆もしかしたら本当に運命の人に出会えるかも♡</p>
+                                    <div class="exhibition_txt">
+                                        <h4 class="classroom-name">学生ホール:運命の人探し</h4>
+                                        <p>配られるカードを手がかりに同じ数字の人を探すというシンプルな企画です。多くの人の参加が必要です！ぜひ友達と一緒に参加してみてください☆もしかしたら本当に運命の人に出会えるかも♡</p>    
+                                    </div>
                                 </div>
                                 <div class="classroom-exhibition" >
                                     <img src="img/classroom/Ennnichi.jpg" alt="img" class="classroom-img">
-                                    <h4 class="classroom-name">学生ホール:縁日</h4>
-                                    <p>大学祭といえばお祭り！お祭りといえば縁日！縁日では射的・和投げ・お菓子釣りをやっています。子どもから大人まで楽しめる事間違いなし！どなたでもお気軽にお越しください！</p>
+                                    <div class="exhibition_txt">
+                                        <h4 class="classroom-name">学生ホール:縁日</h4>
+                                        <p>大学祭といえばお祭り！お祭りといえば縁日！縁日では射的・和投げ・お菓子釣りをやっています。子どもから大人まで楽しめる事間違いなし！どなたでもお気軽にお越しください！</p>    
+                                    </div>
                                 </div>
                             </div>
                             <div class="6f-exhibitions">
                                 <h3 class="floor-num-ex">６階</h3>
                                 <div class="classroom-exhibition" >
                                     <img src= alt="img" class="classroom-img">
-                                    <h4 class="classroom-name">保育実習室:学生有志</h4>
-                                    <p>お子さんと保護者の方がのんびり遊べる場所です。時間内の好きな時間にご利用ください。<br>対象:0歳から就学前のお子さんと保護者の方<br>参加費:無料<br>※広場保険に大学負担で加入しています。</p>
+                                    <div class="exhibition_txt">
+                                        <h4 class="classroom-name">保育実習室:学生有志</h4>
+                                        <p>お子さんと保護者の方がのんびり遊べる場所です。時間内の好きな時間にご利用ください。<br>対象:0歳から就学前のお子さんと保護者の方<br>参加費:無料<br>※広場保険に大学負担で加入しています。</p>    
+                                    </div>
                                 </div>
                             </div>
                         </div>
