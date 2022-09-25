@@ -175,20 +175,6 @@ aside {
     justify-content: center;
 }
 
-
-.mascot-wrap{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#mascot-img {
-    margin: 0 2.5rem 0 2.5rem;
-}
-#mascot-txt {
-    margin: 0 2.5rem 0 2.5rem;
-}
-
 .access-wrap{
     display: flex;
     justify-content: space-around;
@@ -367,6 +353,11 @@ h3 {
         height: 100%;
         object-fit: cover;
     }
+    #horok {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
 #timetable-size{
@@ -375,4 +366,11 @@ h3 {
 
 #minivisual-size{
   width: 250px;
+}
+
+#countdownArea{
+  color: #fff;
+  text-align: center;
+  font-size: 100px;
+  font-weight: 700;
 }
