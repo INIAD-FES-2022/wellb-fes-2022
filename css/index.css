@@ -72,7 +72,7 @@ main {
 #countdownArea{
     color: #fff;
     text-align: center;
-    font-size: 100px;
+    font-size: 80px;
     font-weight: 700;
     border: solid 3px;
     background:#5a756a;
@@ -256,7 +256,7 @@ aside {
 /* ガラス本�? */
 .glass {
     width: 100%;
-    max-width: 800px;
+    max-width: 830px;
     padding: 30px;
     background-color: #ffffff1c; /* 背景色 */
     border: 1px solid #ffffff66; /* ボ�?�ダー */
@@ -412,14 +412,13 @@ h3 {
     }
     #countdownArea{
         font-weight: 700;
-        font-size: 3rem;
+        font-size: 4rem;
         border: solid 3px;
         background:#5a756a;
     }
-    
+
     #countdownText{
         color: #777160;
-        font-size: 1.6rem;
+        font-size: 3rem;
     }
 }
-
