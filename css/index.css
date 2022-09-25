@@ -233,7 +233,7 @@ aside {
     display: flex;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
-    width: 90%;
+    padding: 5%;
 }
 .block-contents .block {
     width: 50%;
@@ -403,10 +403,22 @@ h3 {
 
     #googlemap {
         width: 100%;
+        height: 100%;
     }
 
     .block-contents .block {
         width: 95%;
+    }
+    #countdownArea{
+        font-weight: 700;
+        font-size: 3rem;
+        border: solid 3px;
+        background:#5a756a;
+    }
+    
+    #countdownText{
+        color: #777160;
+        font-size: 1.6rem;
     }
 }
 
