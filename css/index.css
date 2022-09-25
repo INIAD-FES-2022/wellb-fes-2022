@@ -186,9 +186,6 @@ aside {
     object-fit: cover;
 }
 
-.contents-txt {
-
-}
 .contents-img-wrap {
     display: flex;
     justify-content: space-around;
@@ -311,6 +308,34 @@ h3 {
     padding-top: 20px;
     margin-right: 50px;
 }
+
+/* 模擬店 */
+
+.refreshment-booth {
+    display: flex;
+    flex: 0 1 auto;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff33;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+h2 {
+    font-size: 32px;
+    text-align: center;
+    background-color: #ffffff33;
+}
+h3 {
+    font-size: 32px;
+    text-align: center;
+}
+.refreshment-booth-img {
+    width: 200px;
+    padding-top: 20px;
+    margin-right: 50px;
+}
 #horok {
     width: 280px;
 }
@@ -384,6 +409,18 @@ h3 {
     }
 
     .classroom-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /*模擬店*/
+
+    .refreshment-booth {
+        flex-direction: column;
+    }
+
+    .refreshment-booth-img {
         width: 100%;
         height: 100%;
         object-fit: cover;
