@@ -373,4 +373,11 @@ h3 {
   text-align: center;
   font-size: 100px;
   font-weight: 700;
+  border: solid 3px;
+  background:#5a756a;
+}
+
+#countdownText{
+  color: #777160;
+  font-size: 60px;
 }
