@@ -1,6 +1,6 @@
 let countdown = setInterval(function(){
     const now = new Date()  //今の日時
-    const target = new Date("2022/10/29 0:00:00")
+    const target = new Date("2022-10-29T10:00:00+09:00")
     const remainTime = target - now  //差分を取る（ミリ秒で返ってくる
 
     //指定の日時を過ぎていたら処理をしない
