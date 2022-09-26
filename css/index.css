@@ -349,6 +349,9 @@ h3 {
     #sidebar {
         display: none;
     }
+    .glass h1 {
+        font-size: 2.5em;
+    }
     .menu-btn {
         display: flex;
     }
@@ -448,13 +451,13 @@ h3 {
     }
     #countdownArea{
         font-weight: 700;
-        font-size: 4rem;
+        font-size: 1.5rem;
         border: solid 3px;
         background:#5a756a;
     }
 
     #countdownText{
         color: #777160;
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
 }
