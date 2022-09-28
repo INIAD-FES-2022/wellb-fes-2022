@@ -460,4 +460,8 @@ h3 {
         color: #777160;
         font-size: 1.5rem;
     }
+    .instagram-media{
+      width: 100%;
+      text-align: center;
+    }
 }
