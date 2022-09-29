@@ -346,7 +346,7 @@ h3 {
 .sns-wrap {
     display: inline-block;
     justify-items: center;
-    width: 100%;
+    width: 80%;
 }
 #contact-wrap {
     display: flex;
@@ -476,5 +476,10 @@ h3 {
     .instagram-media{
         width: 100%;
         text-align: center;
+    }
+    .sns-wrap {
+        display: inline-block;
+        justify-items: center;
+        width: 80%;
     }
 }
