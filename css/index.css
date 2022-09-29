@@ -4,7 +4,7 @@
 body {
     font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
     margin: 0;
-    background: linear-gradient(to bottom, #8cc7bd 0%, #8cc7bd 25%, #f7d695 25%, #f7d695 50%, #e0a2bb 50%, #e0a2bb 75%, #8f95a7 75%, #8f95a7 100%);
+    background: linear-gradient(to bottom, #8cc7bd 0%, #8cc7bd 12.5%, #f7d695 12.5%, #f7d695 25%, #e0a2bb 25%, #e0a2bb 37.5%, #8f95a7 37.5%, #8f95a7 50%, #8cc7bd 50%, #8cc7bd 62.5%, #f7d695 62.5%, #f7d695 75%, #e0a2bb 75%, #e0a2bb 87.5%, #8f95a7 87.5%, #8f95a7 100%);
     display: block;
     height: 100%;
 }
