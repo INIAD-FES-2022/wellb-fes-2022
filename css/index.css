@@ -353,7 +353,6 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
 }
 @media screen and (max-width: 1024px) {
     #sidebar {
@@ -471,8 +470,10 @@ h3 {
         font-size: 1.5rem;
     }
     .instagram-media{
-        width: 100%;
-        text-align: center;
+        min-width: 100% !important;
+        margin: 0 -1px !important;
+        border-right: none !important;
+        border-left: none !important;
     }
     .sns-wrap {
         display: block;
