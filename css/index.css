@@ -346,6 +346,7 @@ h3 {
 .sns-wrap {
     display: inline-block;
     justify-items: center;
+    width: 100%;
 }
 #contact-wrap {
     display: flex;
@@ -353,6 +354,9 @@ h3 {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+}
+.instagram-media {
+    margin: 0 auto;
 }
 @media screen and (max-width: 1024px) {
     #sidebar {
