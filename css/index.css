@@ -182,7 +182,6 @@ aside {
 
 #title-img {
     width: 100%;
-    height: 10%;
     object-fit: cover;
 }
 
@@ -249,23 +248,23 @@ aside {
     z-index: 7;
 }
 
-/* ガラス本?��? */
+/* ガラス本体 */
 .glass {
     width: 100%;
     max-width: 830px;
     padding: 30px;
     background-color: #ffffff1c; /* 背景色 */
-    border: 1px solid #ffffff66; /* ボ�??��ダー */
+    border: 1px solid #ffffff66; /* ボーダー */
     border-right-color: #ffffff33;
     border-bottom-color: #ffffff33;
     border-radius: 15px;
-    -webkit-backdrop-filter: blur(20px); /* ぼかしエフェク?��? */
+    -webkit-backdrop-filter: blur(20px); /* ぼかしエフェクト */
     backdrop-filter: blur(20px);
     box-shadow: 0 5px 20px #40404033; /* 影 */
     z-index: 8;
 }
 
-/* ガラス?��?コン?��?ン?��? */
+/* ガラス内コンテンツ */
 .glass h1 {
     text-align: center;
     font-family: "Heebo", sans-serif;
@@ -308,7 +307,7 @@ h3 {
     margin-right: 50px;
 }
 
-/* 模擬�? */
+/* 模擬店 */
 
 .refreshment-booth {
     display: flex;
@@ -432,7 +431,7 @@ h3 {
         object-fit: cover;
     }
 
-    /*模擬�?*/
+    /*模擬店*/
 
     .refreshment-booth {
         flex-direction: column;
@@ -480,7 +479,7 @@ h3 {
     .sns-wrap {
         display: block;
         justify-items: center;
-        width: 100%:
+        width: 100%;
     }
     .twitter-timeline {
         min-width: 100% !important;
