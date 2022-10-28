@@ -4,7 +4,11 @@ let countdown = setInterval(function(){
     const remainTime = target - now  //差分を取る（ミリ秒で返ってくる
 
     //指定の日時を過ぎていたら処理をしない
-    if(remainTime < 0) return false
+    if(remainTime < 0) {
+        const countdownArea = document.getElementById('countdownArea')
+        coutdownArea.innerHTML = '開催中'
+        clearInterval(countdown)
+    }
 
     //差分の日・時・分・秒を取得
     const difDay  = Math.floor(remainTime / 1000 / 60 / 60 / 24)
